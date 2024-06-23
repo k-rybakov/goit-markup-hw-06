@@ -41,7 +41,7 @@ ul, ol {
     color: #404bbf;
 }
 
-address {
+.address {
     font-style: normal;
 }
 
@@ -126,7 +126,7 @@ address {
 
 }
 
-.team-title-list {
+.team-list-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -135,14 +135,12 @@ address {
 
 }
 
-.team-text {
+.team-list-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-
 
 
 .portfolio {
