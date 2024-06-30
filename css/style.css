@@ -296,6 +296,8 @@ img {
 .footer-web {
   color: #4d5ae5;
   margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
   display: inline-block;
 }
 
