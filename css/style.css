@@ -94,6 +94,22 @@ img {
   color: #404bbf;
 }
 
+.link.current {
+  position: relative;
+  color: #404bbf;
+}
+
+.link.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
+  background: #404bbf;
+}
+
 .address {
   font-style: normal;
   margin-left: auto;
